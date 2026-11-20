@@ -68,9 +68,5 @@ pip install -r requirements.txt
 
 ### 4. Run the Application
 
-Launch the Streamlit application:
-
-```powershell
-streamlit run app.py
-```
+run 'realtime.ipynb'
 
