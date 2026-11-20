@@ -37,8 +37,8 @@ Copy code
 ## ⚡ Installation  
 Clone the repo and install dependencies:  
 ```bash
-git clone https://github.com/Mrez2/Hand-sign-Keyboard.git
-cd Hand-sign-Keyboard
+git clone https://github.com/Mohamed-Kenawy/Hand-sign-detection
+cd Hand-sign-detection
 pip install -r requirements.txt
 ▶️ Usage
 1️⃣ Collect Data
