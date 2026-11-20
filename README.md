@@ -34,34 +34,43 @@ Copy code
 
 ---
 
-## ⚡ Installation  
-Clone the repo and install dependencies:  
-```bash
-git clone https://github.com/Mohamed-Kenawy/Hand-sign-detection
+## ⚡ Installation
+
+Follow these steps to install and run the project on Windows.
+
+### 1. Clone the Repository
+
+```powershell
+git clone https://github.com/Mohamed-Kenawy/Hand-sign-detection.git
 cd Hand-sign-detection
+```
+
+### 2. Create a Virtual Environment
+
+```powershell
+python -m venv .venv
+```
+
+Activate the environment:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+### 3. Install Dependencies & Requirements
+
+Upgrade pip and install all required libraries:
+
+```powershell
+python -m pip install --upgrade pip
 pip install -r requirements.txt
-▶️ Usage
-1️⃣ Collect Data
-Run webcam data collection and press letter keys to save samples:
+```
 
-bash
-Copy code
-python collect_data.py
-2️⃣ Train Model
-Train the PyTorch model on your collected data:
+### 4. Run the Application
 
-bash
-Copy code
-python train.py
-3️⃣ Run Real-Time Inference
-Use your webcam to recognize gestures live:
+Launch the Streamlit application:
 
-bash
-Copy code
-python infer_realtime.py
-🌍 Applications
-Gesture-based typing
+```powershell
+streamlit run app.py
+```
 
-Accessibility tools for deaf/hard-of-hearing users
-
-Human-computer interaction without keyboard/touchscreen
